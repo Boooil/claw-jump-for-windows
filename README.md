@@ -57,7 +57,7 @@ python claw_jump_agent.py
 ```
 
 
-看到一下输入即为python启动成功。
+看到以下输入即为python启动成功。
 
 ```markdown 
 Starting Claw Jump agent on port 47653
