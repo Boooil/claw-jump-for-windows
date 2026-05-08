@@ -1,5 +1,3 @@
-# README
-
 # Claw-jump-for-windows
 
 该项目是[https://github.com/arczhi/claw-jump.git](https://github.com/arczhi/claw-jump.git "https://github.com/arczhi/claw-jump.git")的windows实现。
