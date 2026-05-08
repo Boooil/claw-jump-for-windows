@@ -1,0 +1,70 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$env:CLAW_JUMP_DIR\\claw-jump-go-v2\\bin\\claw-jump-hook.exe\" stop",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$env:CLAW_JUMP_DIR\\claw-jump-go-v2\\bin\\claw-jump-hook.exe\" reset",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$env:CLAW_JUMP_DIR\\claw-jump-go-v2\\bin\\claw-jump-hook.exe\" notification",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$env:CLAW_JUMP_DIR\\claw-jump-go-v2\\bin\\claw-jump-hook.exe\" permission_request",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$env:CLAW_JUMP_DIR\\claw-jump-go-v2\\bin\\claw-jump-hook.exe\" working",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$env:CLAW_JUMP_DIR\\claw-jump-go-v2\\bin\\claw-jump-hook.exe\" working",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
