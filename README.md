@@ -7,10 +7,10 @@
 clawbot的图片素材均来自于`claw-jump`项目。
 
 整个项目由claude code+deepseekv4 pro完成。
-
-![](image/claw-idle_tzHwXrBgLp.png)
-
-![](image/claw-jump-glow_9YUEZi2yWu.png)
+<div align="center">
+  <img src="image/claw-idle_tzHwXrBgLp.png" width="48%">
+  <img src="image/claw-jump-glow_9YUEZi2yWu.png" width="48%">
+</div>
 
 ## 主要功能及改进
 
